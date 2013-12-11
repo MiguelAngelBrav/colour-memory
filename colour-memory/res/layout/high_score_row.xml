@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:typeface="sans"
+    android:windowNoTitle="true" >
+
+    <LinearLayout
+        style="@style/row_buttons"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/player_name"
+            style="@style/high_score"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Score: 100"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/score"
+            style="@style/high_score"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="Score: 100"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

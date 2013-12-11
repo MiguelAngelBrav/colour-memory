@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    android:typeface="sans"
+    android:windowNoTitle="true" >
+    
+    <ListView
+        android:id="@+id/high_score_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@android:color/white"
+        android:dividerHeight="1dp" >
+    </ListView>
+
+</LinearLayout> 
